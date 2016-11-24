@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#PBS -N p0_2array
+	# job name
+#PBS -l nodes=1:ppn=1
+	# number of nodes and CPU/note 
+#PBS -l vmem=94gb
+#PBS -l walltime=30:00:00
+#PBS -M td.to@unsw.edu.au
+#PBS -m bae
+	# send notice when begin (b)/ abort (a) / end (e)
+
+#PBS -t 1-2
+	# array job: run 2 times
+
+cd $PBS_O_WORKDIR
+ 
+module add matlab/2014b
+
+sleep $[($RANDOM % 240) + 120]
+	# wait between 120 - 257 seconds (random takes value from 0 to 32767)
+
+matlab -nodisplay -r Main_Boot_p0_array;
+
