@@ -1,3 +1,4 @@
+slurmstepd: error: *** JOB 30154 ON node09 CANCELLED AT 2016-11-29T01:41:51 ***
 License checkout failed.
 License Manager Error -18
 Make sure the license file on the MATLAB client matches the license file of the license server and
