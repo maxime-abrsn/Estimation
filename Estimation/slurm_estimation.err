@@ -1,30 +1,13 @@
-com.mathworks.util.ShutdownRuntimeException: Java is shutting down
-	at com.mathworks.services.Prefs.nativeGetPreferencesDirectory(Native Method)
-	at com.mathworks.services.Prefs.getPropertyDirectory(Prefs.java:198)
-	at com.mathworks.services.binding.MatlabKeyBindingPreferenceUtils.resolveToPrefDir(MatlabKeyBindingPreferenceUtils.java:112)
-	at com.mathworks.services.binding.MatlabKeyBindingPreferences.getModifiedDefaultFile(MatlabKeyBindingPreferences.java:213)
-	at com.mathworks.services.binding.MatlabKeyBindingPreferences.resolveModifiedDefaultFilesFromPrefs(MatlabKeyBindingPreferences.java:116)
-	at com.mathworks.services.binding.MatlabKeyBindings.initializeFromPrefs(MatlabKeyBindings.java:717)
-	at com.mathworks.services.binding.MatlabKeyBindings.<clinit>(MatlabKeyBindings.java:590)
-	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:194)
-	at com.mathworks.widgets.debug.DebuggerManager$ActionShell.<init>(DebuggerManager.java:190)
-	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions$1.<init>(DebuggerManager.java:97)
-	at com.mathworks.widgets.debug.DebuggerManager$DebuggerShellActions.<clinit>(DebuggerManager.java:97)
-	at com.mathworks.widgets.debug.DebuggerManager.getContinueAction(DebuggerManager.java:292)
-	at com.mathworks.matlabserver.worker.service.breakpoint.impl13b.DebuggerInstaller.<init>(DebuggerInstaller.java:46)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at java.lang.Class.newInstance(Unknown Source)
-	at com.mathworks.matlabserver.a.b.R(Unknown Source)
-	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
-	at com.mathworks.matlabserver.a.b.<init>(Unknown Source)
-	at com.mathworks.matlabserver.a.f.initialized(Unknown Source)
-	at com.mathworks.matlabserver.connectorcommon.b.b.run(Unknown Source)
-	at com.mathworks.matlabserver.connectorcommon.util.g.run(Unknown Source)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
+License checkout failed.
+License Manager Error -18
+Make sure the license file on the MATLAB client matches the license file of the license server and
+that the license server has been started properly.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2015b/18
+
+Diagnostic Information:
+Feature: MATLAB 
+License path: 27000@hpc:/beegfs/swift/alphacruncher.net/aubersonm/.matlab/R2015b_licenses:/apps/matlab/R2015b/lice
+nses/license.dat:/apps/matlab/R2015b/licenses/network.lic 
+Licensing error: -18,147.
