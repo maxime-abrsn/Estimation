@@ -1,0 +1,14 @@
+License checkout failed.
+License Manager Error -18
+Make sure the license file on the MATLAB client matches the license file of the license server and
+that the license server has been started properly.
+
+Troubleshoot this issue by visiting: 
+http://www.mathworks.com/support/lme/R2016b/18
+
+Diagnostic Information:
+Feature: MATLAB 
+License path: 27000@hpc:/beegfs/swift/alphacruncher.net/aubersonm/.matlab/R2016b_licenses:/apps/matlab/R2016b/lice
+nses/license.dat:/apps/matlab/R2016b/licenses/license_hpc_970406_R2016b.lic:/apps/matlab/R2016b/lice
+nses/network.lic 
+Licensing error: -18,147.
